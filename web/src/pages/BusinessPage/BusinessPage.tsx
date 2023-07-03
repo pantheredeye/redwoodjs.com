@@ -1,4 +1,6 @@
 import { MetaTags } from '@redwoodjs/web'
+import { useTranslation } from 'react-i18next'
+
 import BenefitsSection from 'src/components/Business/BenefitsSection/BenefitsSection'
 
 const BusinessPage = () => {
