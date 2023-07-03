@@ -16,6 +16,7 @@ import HomePage from 'src/pages/HomePage'
 const Routes = () => {
   return (
     <Router>
+      <Route path="/business" page={BusinessPage} name="business" />
       <Set wrap={MainLayout}>
         <Route path="/login" page={LoginPage} name="login" />
         { process.env.CONTEXT !== 'production' && <Route path="/signup" page={SignupPage} name="signup" /> }
